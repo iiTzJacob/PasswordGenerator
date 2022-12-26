@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    background: linear-gradient(to right, #1D3557, #A8DADC);
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: #F1FAEE;
+    font-family: 'Oswald';
+}
+
+.container,
+.output-container {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    font-size: 30px;
+    color: #F1FAEE;
+    font-family: "Oswald";
+}
+
+.length {
+    width: 150px;
+}
+
+#generate {
+    margin-top: 20px;
+}
+
+#copy {
+    margin-top: 15px;
+}
+
+output {
+    width: auto + 10;
+    background-color: #F1FAEE;
+}
+
+.output-container {
+    margin-top: 15px;
+}
